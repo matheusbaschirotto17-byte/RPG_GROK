@@ -1,0 +1,27 @@
+RESPOSTAS
+
+Q1. O while foi usado porque a batalha continua até alguém perder. O for foi usado porque a barra tem uma quantidade definida de espaços.
+
+Q2. curar(50, 100) devolve 80. curar(50, 100, cura=10) devolve 60. O cura=30 define o valor usado quando nenhum valor é informado.
+
+Q3. A vida cheia também seria classificada como vitória comum, porque 100 é maior que a metade. Por isso a vitória perfeita precisa ser testada antes.
+
+Q4. A conta 45 * 4 // 60 resulta em 3. O operador // divide e arredonda o resultado para baixo.
+
+Q5. Depois de comprar 3 poções, sobram 55 moedas. A espada custa 60, então não dá para comprar. Ao vender uma poção, recebe 7 moedas.
+
+Q6. Não. O ouro e o inventário continuam como estavam quando saiu, porque foram salvos no arquivo heroi.json.
+
+Q7. Não precisa mudar o Python, basta adicionar o item corretamente no catalogo.json. Se faltar uma vírgula, o arquivo JSON fica inválido e não será carregado.
+
+Q8. Para deixar as funções de leitura e gravação separadas das regras da loja e poder reutilizá-las em outras partes do jogo.
+
+Q9. Porque a luta de teste está dentro de if __name__ == "__main__". Esse trecho só executa quando batalha.py é aberto diretamente, não quando é importado.
+
+Q10. A vida do herói continuaria baixa ou poderia ficar em zero, prejudicando as próximas batalhas.
+
+Q11. Ana fica na frente porque os dois terminaram com 76 de vida, mas Ana venceu em 4 turnos e Bruno em 5. Isso é definido por ORDER BY vida_restante DESC, turnos ASC.
+
+Q12. JSON é simples para guardar dados do herói e do catálogo. O banco de dados é melhor para registrar várias partidas e fazer consultas, histórico e ranking.
+
+Q13. Eu colocaria uma habilidade especial para o herói, no arquivo batalha.py. Ela usaria funções, parâmetros e estruturas de decisão para calcular um ataque diferente.
